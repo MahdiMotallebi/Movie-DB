@@ -18,7 +18,6 @@ function App() {
     const result = await axios.get("https://moviesapi.ir/api/v1/movies?page=");
     const data = await result.data.data;
     setPhotos(data);
-    console.log(data);
     setFilteredPhoto(data);
     setLoading(true);
   }, []);
