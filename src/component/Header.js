@@ -27,7 +27,7 @@ const Header = ({ photos, setFilteredPhoto, setFlag }) => {
 
   return (
     <header className="header">
-      <h1>find movie fafasdfadf</h1>
+      <h1>find movie</h1>
       <input
         type="text"
         name="photo"
