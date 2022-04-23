@@ -2,4 +2,5 @@
 # Movie finder with react js
 
 ♦ More info & UI/UX files: https://bigsondev.com/projects/find-movies-app-project/
+
 ♦ Online demo: https://motallebi-moviefinder.netlify.app/
