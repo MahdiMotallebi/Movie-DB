@@ -13,10 +13,12 @@ function App() {
   const [showModal, setShowModal] = useState(false);
   const [flag, setFlag] = useState(true);
   const [loading, setLoading] = useState(undefined);
-  // http://www.omdbapi.com/?i=tt3896198&apikey=ae331a2f
+  const URL = "http://localhost:3500/data";
+  //https://moviesapi.ir/api/v1/movies?page=
   useEffect(async () => {
-    const result = await axios.get("https://moviesapi.ir/api/v1/movies?page=");
-    const data = await result.data.data;
+    const result = await axios.get(URL);
+    const data = await result.data;
+    console.log(result.data);
     setPhotos(data);
     setFilteredPhoto(data);
     setLoading(true);
