@@ -3,4 +3,4 @@
 
 ♦ More info & UI/UX files: https://bigsondev.com/projects/find-movies-app-project/
 
-♦ Online demo: https://motallebi-moviefinder.netlify.app/
+♦ Online demo: https://motallebi-movie-finder.netlify.app/
